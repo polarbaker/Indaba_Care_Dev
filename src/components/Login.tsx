@@ -55,6 +55,7 @@ export function Login() {
                       data: {
                         email: formData.get('email') as string,
                         password: formData.get('password') as string,
+                        role: 'parent', // Default role when signing up from login page
                       },
                     })
                   }}
